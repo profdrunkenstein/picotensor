@@ -2,16 +2,16 @@
 
 A minimal **pure-Python** Tensor library built from scratch for learning how multidimensional arrays (tensors) actually work under the hood.
 
-This project follows a step-by-step approach: starting with pure 1D, then 2D, and eventually moving up to 3D and 4D. The goal is to deeply understand shapes, broadcasting, memory layout, and tensor operations — the foundation of modern machine learning frameworks like PyTorch and NumPy.
+This project follows a step-by-step approach: starting with pure 1D, then 2D, and eventually moving up to 3D and 4D. The goal is to deeply understand shapes, broadcasting, memory layout, and tensor operations: the foundation of modern machine learning frameworks like PyTorch and NumPy.
+
+I believe the fastest and most effective way to truly understand how tensor libraries like NumPy and PyTorch work is to build one yourself from scratch. So that's exactly what I'm doing ---step by step, version by version. And I plan on adding comments and further notes that I accumulate to help any learner of the future.
 
 ### Why PicoTensor?
-- Educational: Every version is kept clean and self-contained so you can clearly see the progression.
-- No dependencies — 100% pure Python.
-- Designed for learning, not production speed.
+- Educational: Every version (1D, 2D, 3D and 4D) is kept clean and self-contained so you can clearly see the progression.
+- No dependencies —-- 100% pure Python.
+- Designed for learning, not optimized for maximal efficiency.
 
 ## Current Versions
-
-I believe the fastest and most effective way to truly understand how tensor libraries like NumPy and PyTorch work is to build one yourself from scratch. So that's exactly what I'm doing — step by step, version by version.
 
 | Version   | Folder     | Features                                                                                                                | Status            |
 |-----------|------------|-------------------------------------------------------------------------------------------------------------------------|-------------------|
